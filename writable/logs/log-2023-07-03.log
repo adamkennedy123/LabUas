@@ -1,0 +1,115 @@
+ERROR - 2023-07-03 00:03:36 --> Column 'id_user' cannot be null
+CRITICAL - 2023-07-03 00:03:36 --> Column 'id_user' cannot be null
+#0 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Models\M_daftar.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Controllers\Daftar.php(63): App\Models\M_daftar->simpan(Array)
+#6 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(832): App\Controllers\Daftar->daftarPoliAksi()
+#7 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#8 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-03 00:36:05 --> Attempt to read property "foto" on null
+#0 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Views\layout\v_sidebar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\View\View.php(424): CodeIgniter\View\View->render('layout/v_sideba...', NULL, true)
+#4 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Views\layout\v_template.php(52): CodeIgniter\View\View->include('layout/v_sideba...')
+#5 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\View\View.php(226): CodeIgniter\View\View->render('layout/v_templa...', Array, true)
+#8 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Common.php(1089): CodeIgniter\View\View->render('chat/v_dchat', Array, true)
+#9 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Controllers\Chat.php(26): view('chat/v_dchat', Array)
+#10 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(832): App\Controllers\Chat->index()
+#11 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chat))
+#12 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2023-07-03 01:34:30 --> Column 'id_user' cannot be null
+CRITICAL - 2023-07-03 01:34:30 --> Column 'id_user' cannot be null
+#0 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Models\M_daftar.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Controllers\Daftar.php(63): App\Models\M_daftar->simpan(Array)
+#6 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(832): App\Controllers\Daftar->daftarPoliAksi()
+#7 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#8 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-03 01:40:39 --> Column 'id_user' cannot be null
+CRITICAL - 2023-07-03 01:40:39 --> Column 'id_user' cannot be null
+#0 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Models\M_daftar.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Controllers\Daftar.php(63): App\Models\M_daftar->simpan(Array)
+#6 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(832): App\Controllers\Daftar->daftarPoliAksi()
+#7 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#8 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-03 01:41:33 --> Column 'id_user' cannot be null
+CRITICAL - 2023-07-03 01:41:33 --> Column 'id_user' cannot be null
+#0 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Models\M_daftar.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Controllers\Daftar.php(63): App\Models\M_daftar->simpan(Array)
+#6 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(832): App\Controllers\Daftar->daftarPoliAksi()
+#7 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#8 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-03 01:42:56 --> Column 'id_user' cannot be null
+CRITICAL - 2023-07-03 01:42:56 --> Column 'id_user' cannot be null
+#0 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Models\M_daftar.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Controllers\Daftar.php(63): App\Models\M_daftar->simpan(Array)
+#6 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(832): App\Controllers\Daftar->daftarPoliAksi()
+#7 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#8 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-03 01:49:08 --> Column 'id_user' cannot be null
+CRITICAL - 2023-07-03 01:49:08 --> Column 'id_user' cannot be null
+#0 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Models\M_daftar.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Controllers\Daftar.php(63): App\Models\M_daftar->simpan(Array)
+#6 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(832): App\Controllers\Daftar->daftarPoliAksi()
+#7 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#8 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-03 01:53:36 --> Column 'id_user' cannot be null
+CRITICAL - 2023-07-03 01:53:36 --> Column 'id_user' cannot be null
+#0 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Models\M_daftar.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\app\Controllers\Daftar.php(63): App\Models\M_daftar->simpan(Array)
+#6 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(832): App\Controllers\Daftar->daftarPoliAksi()
+#7 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#8 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Experiment\klinik-muhammadiyah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
